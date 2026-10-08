@@ -18,17 +18,6 @@
 - **IP server**: 221.121.3.53
 - **Port**: [CẦN DÙNG PORT CÁ NHÂN, KHÔNG DÙNG 80]
 
-## 4. Cấu hình Nginx
-
-| Tham số         | Giá trị                                         | Giải thích                 |
-| --------------- | ----------------------------------------------- | -------------------------- |
-| PORT            | [PORT]                                          | Cổng Nginx được phân bổ    |
-| SERVER_NAME     | 221.121.4.58                                    | IP address của server      |
-| WEB_ROOT        | /var/www/devops-hackathon-de001-An256122006/src | Thư mục chứa file website  |
-| INDEX_FILE      | index.html                                      | File mặc định khi truy cập |
-| TEN_TAI_KHOAN   | binh2810                                        | Tên tài khoản Linux        |
-| ALLOW_DIRECTIVE | allow all                                       | Cho phép tất cả truy cập   |
-
 ## 5. UFW Firewall
 
 Các rule đã cấu hình:
